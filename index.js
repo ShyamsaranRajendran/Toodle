@@ -14,9 +14,7 @@ addTaskButton.addEventListener('click', () => {
     `;
 
     taskList.appendChild(listItem);
-
     taskInput.value = '';
-
     const deleteButton = listItem.querySelector('.delete-btn');
     deleteButton.addEventListener('click', () => {
         listItem.remove();
